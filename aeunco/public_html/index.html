@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, target-densitydpi=medium-dpi" />
+
+        <link rel="stylesheet"  href="libs/jQM-flat/jquery.mobile.flatui.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+        <title>Así es la UNCo</title>
+    </head>
+    <body>
+        <div id="app">
+            <div id="home-page" data-role="page">
+                <div data-role="content" >
+                    <div id="logoContainer" class="centerText">
+                        <img src="img/asieslauncologo.png" id="logo"  />
+                    </div>
+                    <div id="menu">
+                        <a data-icon="flat-heart" data-theme="d" href="#buscar_carrera" data-role="button">Buscar Carrera</a>
+                        <a data-icon="flat-time" data-theme="f" href="#due-page"  data-role="button">Institucional</a>
+                        <fieldset class="ui-grid-a">
+                            <div class="ui-block-a"> <a data-icon="flat-checkround" data-theme="e" href="#tips-page"  data-role="button">Contacto</a></div>
+                            <div class="ui-block-b"><a data-icon="ms-question" data-theme="g" href="#about-page"  data-role="button" >Acerca de</a></div>
+                        </fieldset>
+
+
+                    </div>
+                </div>
+                <div id="footer" data-role="footer" data-id="footer1" data-position="fixed" data-tap-toggle="false">
+                    <div id="navbar" data-role="navbar">
+                        <ul>
+                            <li><a  href="#second-page" ><img src="img/ypf.jpeg" id="ypf" class="sponsor" /></a></li>
+                            <li><a id="list-button" href="#list-page" ><img src="img/credicoop.jpeg" id="credicoop" class="sponsor" /></a></li>
+                            <li><a id="search-button" href="#search-page" >Sponsor3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /page  -->
+            <div  id="buscar_carrera" data-role="page">
+                <div data-role="header" data-id="header" id="header" data-position="fixed" class="ui-header">
+                    <a href="#home-page"  data-role="button" data-icon="arrow-l" data-inline="true" >Volver</a>
+                    <h1>Buscar Carrera</h1>
+                </div>
+                <div data-role="content" >
+                    <form  id="search-form" action="">
+
+                        <ul data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Ingrese carrera...">
+                            <li><a href="#carrera">Tecnicatura Universitaria en Desarrollo Web </a></li>
+                            <li><a href="#">Tecnicatura Universitaria en Administración de Sistemas y Software Libre</a></li>
+                            <li><a href="#">Guía de Turismo</a></li>
+                            <li><a href="#">Técnico Universitario Forestal</a></li>
+                            <li><a href="#">Tecnicatura Universitaria de Espacios Verdes</a></li>
+                            <li><a href="#">Tecnicatura en Control e Higiene de los Alimentos</a></li>
+                            <li><a href="#">Licenciatura en Tecnología de los Alimentos</a></li>
+                            <li><a href="#">Licenciatura en Gerenciamiento Gastrónomico</a></li>
+                            <li><a href="#">Profesorado en Informática</a></li>
+                            <li><a href="#">Licenciatura en Ciencias de la Computación</a></li>
+                            <li><a href="#">Analista en Computación</a></li>
+
+                        </ul>
+
+                    </form>
+                </div>
+            </div>
+
+            
+            <div  id="carrera" data-role="page">
+                <div data-role="header" data-id="header" id="header" data-position="fixed" class="ui-header">
+                    <a href="#buscar_carrera"  data-role="button" data-icon="arrow-l" data-inline="true" >Volver</a>
+                    <h1>Tecnicatura Universitaria en Desarrollo Web</h1>
+                </div>
+                <div data-role="content" >
+                    <h1>Tecnicatura Universitaria en Desarrollo Web</h1>
+                    <h3>Facultad de Informática - Neuquen, Chos Malal, Viedma</h3>
+                    <h3>Duración 2.5 Años</h3>
+                    
+                    <h2>Perfil Egresado</h2>
+                    <p>El objetivo general de esta carrera consiste en formar a los alumnos en el conocimiento y empleo de estrategias, modelos, métodos, técnicas y herramientas para abordar la resolución de problemas de sitios, aplicaciones y procesos centrados en la Web, enfatizando aspectos de calidad con restricciones de costo y tiempo.
+	Se busca formar un egresado con conocimientos teóricos y prácticos en programación, diseño y tecnologías relacionadas con la creación de aplicaciones bajo entornos web.
+	Se orientará especialmente al mercado laboral vinculado con la interrelación entre un usuario final con clientes web e interfaces basadas en HTML y un motor de negocios con una base de datos como infraestructura de soporte. Podrá seleccionar la mejor alternativa tecnológica para desarrollar una aplicación dada según las necesidades.</p>
+                    <h2>Alcances del título</h2>
+                    <p>El Técnico Universitario en Desarrollo de Aplicaciones Web podrá desempeñarse en la actividad pública o privada específicamente en el desarrollo de aplicaciones Web. Podrá participar en carácter colaborativo en proyectos de software de mayor envergadura que involucren desarrollos de sitios Web. También, integrar equipos de proyectos y aplicaciones centradas en la Web, para su desarrollo en forma disciplinada y sistemática; desarrollar sitios y aplicaciones Web; evaluar atributos de calidad de sitios y aplicaciones Web; realizar el mantenimiento de aplicaciones y sitios Web.
+	Podrá integrar equipos de Proyectos de Software, de cualquier escala, en las etapas de análisis, desarrollo e implantación de software de aplicación Web .</p>
+                </div>
+            </div>
+            
+            <div  id="second-page" data-role="page">
+                <div data-role="header" data-id="header" id="header" data-position="fixed" class="ui-header">
+                    <a href="#home-page"  data-role="button" data-icon="arrow-l" data-inline="true" >Volver</a>
+                    <h1>Buscar Carrera</h1>
+                </div>
+                <div data-role="content" >
+                    <form  id="search-form" action="">
+                        <label for="address">Carrera</label>
+                        <input id="filterBasic-input" data-type="search">
+
+
+
+
+
+
+
+                        <input type="text" name="address" id="address" data-mini="true" placeholder="123 cedar ave"/>
+                        <label for="dentist">Person <span class="small-text">(optional)</span></label>
+                        <input type="text" name="dentist" id="dentist" data-mini="true" placeholder="Dr Smith"/>
+
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup" data-mini="true">
+                                <legend>Availability</legend>
+                                <input type="checkbox" name="checkbox-1a"    id="checkbox-1a" class="custom" checked="checked" />
+                                <label for="checkbox-1a">Morning</label>
+
+                                <input type="checkbox" name="checkbox-2a"   id="checkbox-2a" class="custom" checked="checked"/>
+                                <label for="checkbox-2a">Afternoon</label>
+
+                                <input type="checkbox" name="checkbox-3a"   id="checkbox-3a" class="custom" checked="checked" />
+                                <label for="checkbox-3a">Evening</label>
+
+                                <input type="checkbox" name="checkbox-4a"  id="checkbox-4a" class="custom" />
+                                <label for="checkbox-4a">Weekends</label>
+                            </fieldset>
+                        </div>
+
+
+                        <div data-role="fieldcontain">
+                            <label for="select-choice-a">Type</label>
+                            <select name="select-choice" id="select-choice-a" data-native-menu="false" data-mini="true" data-theme="b">
+
+                                <option value="val1">Option 1</option>
+                                <option value="val2">Option 2</option>
+                                <option value="val3">Option 3</option>
+
+                            </select>
+                        </div>
+
+                        <button type="submit" data-theme="f" data-mini="false" class="ui-btn-hidden" aria-disabled="false">Search</button>
+                    </form>
+                </div>
+                <div id="footer" data-role="footer" data-id="footer1" data-position="fixed" data-tap-toggle="false">
+                    <div id="navbar" data-role="navbar">
+                        <ul>
+                            <li><a id="map-button" href="#second-page" data-icon="flat-location" data-theme="b">Map</a></li>
+                            <li><a id="list-button" href="#list-page" data-icon="flat-menu">List</a></li>
+                            <li><a id="search-button" href="#search-page" data-icon="ms-search">Search</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div  id="about-page" data-role="page">
+                <div data-role="header" data-id="header1" data-position="fixed" class="ui-header">
+                    <a href="#" data-rel="back" data-role="button" data-icon="arrow-l" data-inline="true" >Volver</a>
+                    <h1>Acerca de</h1>
+                </div>
+                <div data-role="content"  class="big-text">
+                    <h2>Así es la UNCo es un desarrollo propio de la Universidad</h2>
+                    <p>Toda la información ha sido generada por los docentes de las respectivas carreras.
+                        Los desarrolladores son......
+                        Los fuentes se pueden encontrar en.....</p>
+                </div>
+            </div>
+        </div>
+
+
+        <script type="text/javascript" src="libs/fastclick.min.js"></script>
+        <script type="text/javascript" src="phonegap.js"></script>
+        <script type="text/javascript" src="libs/jquery-2.0.3.min.js"></script>
+        <script type="text/javascript" src="libs/jQueryMobile/jquery.mobile-1.3.2.min.js"></script>
+
+
+        <script type="text/javascript" src="js/index.js"></script>
+
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
